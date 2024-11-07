@@ -75,7 +75,7 @@ export default function Navbar() {
 
           {/* Button Links */}
           <div className="hidden md:flex items-center gap-6">
-            <NavLink to="/login" className="text-gray-700 hover:underline">Login</NavLink>
+            <NavLink to="/login" className="text-gray-900 font-bold hover:underline">Login</NavLink>
             <NavLink to="/start-free">
               <button className="text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-full transition-all duration-300">
                 Start Free
