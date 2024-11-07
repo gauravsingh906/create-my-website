@@ -14,7 +14,7 @@ export default function Banner() {
   };
 
   return (
-    <div className="bg-primary-100 pt-[5rem]">
+    <div className="bg-primary-100 pt-[4rem]">
       <div className="container mx-auto max-w-[1344px]">
         <div className="flex px-5 py-9 flex flex-col gap-8 sm:gap-10 md:gap-16 md:pb-0 lg:gap-20 lg:px-10 lg:pt-12 overflow-hidden">
           <motion.section

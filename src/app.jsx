@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import PricingPlans from "./components/Pricing";
 import Testimonial from "./components/Testimonial";
 import ContactForm from "./components/Contact";
+import WhatsAppButton from "./components/whatsappButton";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
 
       </Routes>
       <Footer></Footer>
+      <WhatsAppButton></WhatsAppButton>
     </Router>
   );
 }

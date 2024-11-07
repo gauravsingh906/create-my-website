@@ -1,11 +1,10 @@
 export default function MainButton({ children, primary, style }) {
   return (
     <button
-      className={`${
-        primary
-          ? "border border-primary-100 bg-primary-100 text-tertiary-200"
-          : "border border-primary-100 bg-tertiary-300 text-primary-100"
-      } p-5 text-lg uppercase font-body font-bold md:px-[34px] md:py-5 lg:w-full ${style}`}
+      className={`${primary
+        ? "border border-primary-100 bg-primary-100 text-tertiary-200"
+        : "border border-primary-100 bg-tertiary-300 text-primary-100"
+        } p-5 rounded-lg py-2 text-sm  lg:text-lg uppercase font-body font-bold md:px-[34px] md:py-5 lg:w-full ${style}`}
     >
       {children}
     </button>

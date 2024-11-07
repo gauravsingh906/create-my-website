@@ -4,7 +4,7 @@ import { Button } from "../Atoms/button";
 
 export default function Blog() {
   return (
-    <div className="container mx-auto pt-[4rem] max-w-[1200px] p-6">
+    <div className="container mx-auto pt-[3rem] max-w-[1200px] p-6">
       <div className="px-5 py-16 flex flex-col gap-16 sm:px-10">
 
         {/* Header Section */}

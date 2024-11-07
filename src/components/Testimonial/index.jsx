@@ -34,7 +34,7 @@ export default function Testimonial() {
   const navigationNextRef = useRef(null);
 
   return (
-    <div className="bg-gray-100 py-14 md:pt-[10rem]">
+    <div className="bg-gray-100 py-14 pt-[8rem]">
       <div className="container mx-auto max-w-[1344px]">
         <div className="px-6 sm:px-12 relative">
           <Swiper
@@ -52,7 +52,7 @@ export default function Testimonial() {
             className="relative"
           >
             {testimonials.map((testimonial, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide className="p-2" key={index}>
                 <TestimonialItem {...testimonial} />
               </SwiperSlide>
             ))}

@@ -198,7 +198,7 @@ export default function Footer() {
       {/* Footer Bottom Section */}
       <div className="bg-gray-900 py-6">
         <p className="text-center text-gray-500 text-sm">
-          © 2024 Company Name. All Rights Reserved.
+          © 2024 Create-My-Website. All Rights Reserved.
         </p>
       </div>
     </div>
