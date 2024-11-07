@@ -63,7 +63,7 @@ export default function Navbar() {
               <NavLink
                 key={idx}
                 to={`/${link.toLowerCase()}`}
-                className="relative font-semibold text-gray-700 hover:text-blue-600 transition-colors duration-200 group"
+                className="relative font-semibold text-gray-950 hover:text-blue-600 transition-colors duration-200 group"
                 activeClassName="text-blue-600"
                 exact
               >
