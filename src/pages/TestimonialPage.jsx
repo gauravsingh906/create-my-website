@@ -3,7 +3,7 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useRef } from "react";
-import TestimonialItem from "./testimonialItem";
+import TestimonialItem from "../components/Testimonial/testimonialItem";
 
 const testimonials = [
   {

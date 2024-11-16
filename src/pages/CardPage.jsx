@@ -1,4 +1,4 @@
-import CardItem from "./cardItem";
+import CardItem from "../components/Card/cardItem";
 
 export default function Card() {
   return (

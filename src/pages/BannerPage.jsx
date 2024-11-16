@@ -1,6 +1,7 @@
-import SubHead from "../Atoms/subhead";
-import Paragraph from "../Atoms/paragraph";
+
 import { motion } from "framer-motion";
+import SubHead from "../components/Atoms/subhead";
+import Paragraph from "../components/Atoms/paragraph";
 
 export default function Banner() {
   const bannerContainer = {

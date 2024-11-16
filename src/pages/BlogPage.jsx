@@ -1,6 +1,7 @@
-import SubHead from "../Atoms/subhead";
-import Paragraph from "../Atoms/paragraph";
-import { Button } from "../Atoms/button";
+import React from "react";
+import Button from "../components/Atoms/button";
+import SubHead from "../components/Atoms/subhead";
+import Paragraph from "../components/Atoms/paragraph";
 
 export default function Blog() {
   return (
